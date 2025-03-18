@@ -87,3 +87,6 @@ KPIs created as follows:
 ### - Finished Page
 
 ![alt text](<M6 Finish.jpg>)
+
+## Milestone 7 - Create a Product Detail Page
+ - Completed but awaiting guidance on accuracy some of the visualisations. Will update README in due course
