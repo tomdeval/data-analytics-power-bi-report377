@@ -44,3 +44,46 @@ Slicer added as instructed:
 ### - Finished Page
 
 ![alt text](Finish.jpg)
+
+
+## Milestone 6 - Create an Executive Summary Page.
+### - Task 1: Create the Card Visuals
+Green chosen to be stand out.
+
+![alt text](M6T1a.jpg)
+
+### - Task 2: Add a Revenue Trending Line Chart
+
+![alt text](M6T2.jpg)
+
+### - Task 3: Add Donut Charts for Revenue by Country and Store Type
+(Label formatting adjusted due to space).
+
+![alt text](M6T3-1.jpg)
+
+### - Task 4: Add a Bar Chart of Orders by Product Category
+
+![alt text](M6T4.jpg)
+
+### - Task 5: Add KPI Visuals
+Used these DAX formulas to create the required measures:
+
+    Previous Quarter Profit = CALCULATE([Total Profit],PREVIOUSQUARTER('Date Table'[StartOfQuarter]))
+
+    Previous Quarter Revenue = CALCULATE([Total Revenue],PREVIOUSQUARTER('Date Table'[StartOfQuarter]))
+
+    Previous Quarter Orders = CALCULATE([Total Orders],PREVIOUSQUARTER('Date Table'[StartOfQuarter]))
+
+    Target Profit = [Previous Quarter Profit] * 1.05
+
+    Target Revenue = [Previous Quarter Revenue] * 1.05
+
+    Target Orders = [Previous Quarter Orders] * 1.05
+
+KPIs created as follows:
+
+![alt text](M6T5.jpg)
+
+### - Finished Page
+
+![alt text](<M6 Finish.jpg>)
