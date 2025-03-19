@@ -101,3 +101,19 @@ KPIs created as follows:
 
 ![alt text](M9T2.jpg)
 
+## Milestone 10 - Create Metrics for Users Outside the Compnay Using SQL
+### - Task 1: Connect to The SQL Server
+### - Task 2: Check the Table and Column Names
+ - Both tasks straightforward
+
+### - Task 3: Query the Database
+    - 1. How many staff are there in all of the UK stores?
+        Straightfoward query. (see SQL file)
+    - 2. Which month in 2022 has had the highest revenue?
+        Had some trouble figuring out columns to JOIN across tables, and had to exclude NULLs in orders.order_date. (see SQL file)
+    - 3. Which German store type had the highest revenue for 2022?
+        Quite straightforward once JOIN issues resolved. (see SQL file)
+    - 4. Create a view where the rows are the store types and the columns are the total sales, percentage of total sales and the count of orders
+        Did percentage_of_total_sales calculation within store_sales table to avoid JOIN with other table. Had problem rendering view for some reaseon, but it was created as proved by secondary code. Will discuss and update. (see SQL file)
+    - 5. Which product category generated the most profit for the "Wiltshire, UK" region in 2021?
+        Quite straightforward once JOIN issues resolved. Put in extra clause to filter "UK", though I don't think it's necessary in the case of "Wiltshire", in case code is reused for pan-US/UK place names like "Bristol" or "Birmingham". (see SQL file)
