@@ -91,5 +91,13 @@ KPIs created as follows:
 ## Milestone 7 - Create a Product Detail Page
  - Completed but awaiting guidance on accuracy on some of the visualisations. Will update README in due course.
 
- ## Milestone 8 - Create a Stores Map Page
+## Milestone 8 - Create a Stores Map Page
  - Completed but confusion in respect of instructions regarding drillthrough, and tooltip. Will update README in due course.
+
+## Milestone 9 - Cross-Filtering and Navigation
+### - Task 1: Cross-filtering enacted as instructed.
+### - Task 2: Finish the Navigation Bar
+ - Buttons added as required - example below.
+
+![alt text](M9T2.jpg)
+
