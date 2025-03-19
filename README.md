@@ -89,4 +89,7 @@ KPIs created as follows:
 ![alt text](<M6 Finish.jpg>)
 
 ## Milestone 7 - Create a Product Detail Page
- - Completed but awaiting guidance on accuracy some of the visualisations. Will update README in due course
+ - Completed but awaiting guidance on accuracy on some of the visualisations. Will update README in due course.
+
+ ## Milestone 8 - Create a Stores Map Page
+ - Completed but confusion in respect of instructions regarding drillthrough, and tooltip. Will update README in due course.
